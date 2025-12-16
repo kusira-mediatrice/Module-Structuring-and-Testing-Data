@@ -4,4 +4,4 @@
 console.log(`I was born in ${cityOfBirth}`);
 const cityOfBirth = "Bolton";
 
-// error will be Cannot access 'cityOfBirth' before initialization
+//Response:  error will be Cannot access 'cityOfBirth' before initialization
