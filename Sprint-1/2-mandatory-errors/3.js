@@ -7,3 +7,7 @@ console.log(`the last 4 digits of ${cardNumber}  are ${last4Digits}`);
 // Then run the code and see what error it gives.
 // Consider: Why does it give this error? Is this what I predicted? If not, what's different?
 // Then try updating the expression last4Digits is assigned to, in order to get the correct value
+
+//Response: this code won't work because we are calling slice function on numerique variable
+//slice is not a define function for numerique howover it is for a string
+// reponse:to make it work we transform the cardNumber value into a string
