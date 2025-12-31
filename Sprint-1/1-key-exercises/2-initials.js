@@ -4,10 +4,10 @@ let lastName = "Johnson"; //declare variable lastName and assign it the string "
 
 // Declare a variable called initials that stores the first character of each string.
 // This should produce the string "CKJ", but you must not write the characters C, K, or J in the code of your solution.
-const index = 0;
-let initials = `${firstName.charAt(index)}${middleName.charAt(
-  index
-)}${lastName.charAt(index)}`;
+
+let initials = `${firstName.charAt(0)}${middleName.charAt(0)}${lastName.charAt(
+  0
+)}`;
 console.log(
   `The initials of ${firstName} ${middleName} ${lastName} are ${initials}`
 );
