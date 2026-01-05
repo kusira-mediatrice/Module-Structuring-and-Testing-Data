@@ -23,3 +23,24 @@ console.assert(
   currentOutput2 === targetOutput2,
   `current output: ${currentOutput2}, target output: ${targetOutput2}`
 );
+
+currentOutput = formatAs12HourClock("00:00");
+targetOutput = "00:00 am";
+console.assert(
+  currentOutput === targetOutput,
+  `current output: ${currentOutput}, target output: ${targetOutput}`
+);
+
+currentOutput = formatAs12HourClock("17:22");
+targetOutput = "05:22 pm";
+console.assert(
+  currentOutput === targetOutput,
+  `current output: ${currentOutput}, target output: ${targetOutput}`
+);
+
+currentOutput = formatAs12HourClock("19:00");
+targetOutput = "07:00 pm";
+console.assert(
+  currentOutput === targetOutput,
+  `current output: ${currentOutput}, target output: ${targetOutput}`
+);
