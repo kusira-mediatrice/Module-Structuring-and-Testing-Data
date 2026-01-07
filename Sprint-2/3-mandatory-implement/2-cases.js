@@ -15,15 +15,11 @@
 // Use the MDN string documentation to help you find a solution
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 function convertToUpperSnakeCase(str) {
-  let convertedStr = str.toUpperCase().replaceAll(" ", "_");
-  return convertedStr;
-}
-function convertToUpperSnakeCase1(str) {
   return str.toUpperCase().replaceAll(" ", "_");
 }
 
-console.log(convertToUpperSnakeCase1("hello there"));
-let currentOutput = convertToUpperSnakeCase1("lord of the rings");
+console.log(convertToUpperSnakeCase("hello there"));
+let currentOutput = convertToUpperSnakeCase("lord of the rings");
 let expectedOutput = "LORD_OF_THE_RINGS";
 console.log(`${currentOutput}`);
 console.assert(

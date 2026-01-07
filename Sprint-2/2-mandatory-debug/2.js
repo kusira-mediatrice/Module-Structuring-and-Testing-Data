@@ -5,16 +5,6 @@
 //all function call because the function does not take the paramether and use the value of the declared
 // variable num
 
-const num = 103;
-
-function getLastDigit() {
-  return num.toString().slice(-1);
-}
-
-console.log(`The last digit of 42 is ${getLastDigit(42)}`);
-console.log(`The last digit of 105 is ${getLastDigit(105)}`);
-console.log(`The last digit of 806 is ${getLastDigit(806)}`);
-
 // Now run the code and compare the output to your predictionS
 // =============> write the output here
 //kusira@AX15:/mnt/c/MCB/Module-Structuring-and-Testing-Data/sprint-2/2-mandatory-debug$ node 2.js

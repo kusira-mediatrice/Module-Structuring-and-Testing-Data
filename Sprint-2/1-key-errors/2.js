@@ -4,10 +4,6 @@
 
 // =============> write your prediction of the error here
 
-function square(3) {
-  return num * num;
-} 
-
 // =============> write the error message here
 //R. num is never defined and variable name can not be a number (3)
 

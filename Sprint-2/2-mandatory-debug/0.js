@@ -3,12 +3,6 @@
 // =============> write your prediction here   the code will compilie without error but line 10 will not print
 //320 at the end.
 
-function multiply(a, b) {
-  console.log(a * b);
-}
-
-console.log(`The result of multiplying 10 and 32 is ${multiply(10, 32)}`);
-
 // =============> write your explanation here    we are printing the result of the multiplication directly with in
 //the function .since we did not return the result of the multiplication from the function;the function call will
 //print 320 in the console
@@ -16,7 +10,7 @@ console.log(`The result of multiplying 10 and 32 is ${multiply(10, 32)}`);
 // Finally, correct the code to fix the problem
 
 //  =============> write your new code here
-function multiply1(a, b) {
+function multiply(a, b) {
   return a * b;
 }
 
