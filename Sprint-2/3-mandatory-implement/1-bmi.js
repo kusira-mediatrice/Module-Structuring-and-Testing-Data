@@ -15,5 +15,18 @@
 // It should return their Body Mass Index to 1 decimal place
 
 function calculateBMI(weight, height) {
-    // return the BMI of someone based off their weight and height
+  return Math.fround(weight / (height * height)).toFixed(1);
+  // return the BMI of someone based off their weight and height
 }
+
+let bmi = calculateBMI(70, 1.73);
+console.assert(bmi === "23.4", `calculated bmi is ${bmi}`);
+
+bmi = calculateBMI(92, 1.75);
+console.assert(bmi === "30.0", `calculated bmi is ${bmi}`);
+
+bmi = calculateBMI(85, 1.68);
+console.assert(bmi === "30.1", `calculated bmi is ${bmi}`);
+
+bmi = calculateBMI(75, 1.75);
+console.assert(bmi === "24.5", `calculated bmi is ${bmi}`);
